@@ -256,7 +256,8 @@
 .div332{
     max-width: 500px;
     width: 100%;
-    background-color: azure;
+    background-color: #F5E4DF;
+    box-shadow: #501212 5px 10px;
     height: 300px;
     position: absolute;
     left: 250px;
@@ -288,6 +289,10 @@
     background-repeat: no-repeat;
     background-image: url(../img/white.png);
 }
+.bg-img3321:hover,
+.bg-img3322:hover{
+    margin-top: 7px;
+}
 .bg-img3322{
     width: 100px;
     height: 150px;
@@ -299,11 +304,11 @@
     max-width: 1340px;
     width: 90%;
     margin: 50px auto;
-    background-color: aqua;
 }
 .h2-title{
     font-family: "BPG Mikheil Stefane", sans-serif;
     font-size: 56px;
+    text-shadow: #501212 3px 1px;
 }
 /*section3*/
 .div3{
@@ -378,17 +383,25 @@
 .div-email2{
     max-width: 750px;
     width: 100%;
-    margin: 0 15px;
+    margin-left: 15px;
 }
 .div-email3{
     width: 150px;
     height: 70px;
+    padding-left: 15px;
+}
+#text{
+    display: block;
+}
+.form-tout{
+    display: flex;
 }
 .form{
     width: 100%;
     height: 70px;
     border-radius: 15px;
     font-size: 25px;
+    outline: 0;
 }
 .submit{
     width: 100%;
@@ -586,6 +599,16 @@ th{
 .action{
     margin-top: 100px;
 }
+.title-black,
+.title-white{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.h2-white-black{
+    font-size: 36px;
+    color: #501212;
+    text-shadow: #000000 1.5px 1.5px;
+}
 /*@media-section2*/
 @media (max-width:1040px) {
     .h1{
@@ -700,6 +723,12 @@ th{
     .fa-arrow-right{
         font-size: 20px;
     }
+    #text{
+        margin-top: -30px;
+    }
+    .div3 img{
+        height: 150px;
+    }
 }
 @media (max-width:480px) {
     .div-box2{
@@ -738,5 +767,25 @@ th{
     }
     .div-icon{
         width: 100%;
+    }
+    #text{
+        font-size: 12px;
+    }
+    /*div-iframe-box3*/
+    .h4-iframe{
+        font-size: 14px;
+    }
+    .fa-location-dot,
+    .fa-phone-volume{
+        font-size: 18px;
+    }
+    .span-adresse-tel,
+    .div-iframe-box3,
+    .box-p{
+        font-size: 10px;
+    }
+    .box-p{
+        width: 100px;
+        height: 25px;
     }
 }
